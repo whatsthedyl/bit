@@ -1,7 +1,7 @@
 # 2
 def longest_consecutive_sequence(numbers):
     if not numbers:
-        return []
+        return 0
     numbers = set(numbers)
     longest_streak = 1
     for number in numbers:
