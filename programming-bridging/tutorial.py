@@ -250,8 +250,6 @@ def gcd_of_non_primes(numbers):
         return -1
     
     def gcd(a, b):
-        if b > a:
-            a, b = b, a
         while b:
             a, b = b, a % b
         return a
